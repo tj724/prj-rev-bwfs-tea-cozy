@@ -1,0 +1,145 @@
+/*Global Styles*/
+
+body, html {
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 10px;
+}
+
+body{
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+/* Header Styles */
+#header{
+    display: flex;
+    align-items: center;
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    justify-content: space-between;
+    background-color: black;
+    z-index: 40;
+}
+
+
+#logo img{
+    height: 50px;
+    margin-left: 10px;
+}
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav span{
+    display: inline-block;
+    padding: 0 10px;
+}
+
+#nav a{
+    color: seashell;
+}
+
+
+/* Main Content Styles */
+#main{
+    padding-top: 70px;
+}
+
+#banner{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+#banner-image{
+    z-index: 10;
+    margin: 0 auto;
+}
+
+#banner-image img{
+    width: auto;
+    height: 700px;
+}
+
+#banner-text{
+    background-color: black;
+    width: 1200px;
+    position: absolute;
+    z-index: 20;
+}
+
+
+#t-o-m{
+    width: 1000px;
+    margin: 0 auto 70px;
+    
+}
+
+#teas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image img{
+    width: 300px;
+    height: 200px;
+    margin: 10px;    
+}
+
+#locations{
+    width: 1200px;
+    height: 500px; 
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(/resources/images/img-locations-background.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+
+#places-container{
+    display: flex;
+    justify-content: center;
+}
+
+.location-place{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: black;
+    width:  300px;
+    margin-top:15px;
+    opacity: 1;
+}
+
+.location-place:nth-child(1), .location-place:nth-child(2){
+    margin-right: 40px;
+}
+
+#contact{
+    height: 200px;
+}
+
+
+/* Footer Styles */
+#footer{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
